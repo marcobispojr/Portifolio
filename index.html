@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio - Marco Antônio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <header>
+  <nav>
+    <h1 class="titulo-digitado">
+      <span class="texto-fixo">Marco Antônio</span>
+      <span id="typed-text"></span>
+    </h1>
+
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="foto-perfil-container">
+      <img src="foto.jfif" alt="Foto de Perfil" class="foto-perfil"/>
+      </div>
+      <h2>Desenvolvedor FullStack & Tech Lover</h2>
+      <p>Transformando ideias em aplicações incriveis.</p>
+      <a href="CurriculoMarco.pdf" download class="curriculo-btn">Baixar Currículo</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h1>Sobre Mim</h1>
+    <p>Sou uma pessoa tranquila e dedicada, valorizo tanto os momentos de lazer com quem gosto quanto o tempo de qualidade comigo mesmo.
+      Gosto de manter uma rotina equilibrada entre ir à academia,<br> curtir minha casa, sair com os amigos e aproveitar o tempo ao lado da minha namorada.
+      Tenho objetivos simples, mas significativos: um deles é viajar com um amigo no próximo ano, explorando novos<br> ares como o Peru ou o Chile. Acredito no 
+      valor das conexões verdadeiras e levo a sério o sonho de construir uma família no futuro. Levo a vida com responsabilidade, mas sempre aberto a novas 
+      experiências<br> e aprendizados. Isso é um pouco sobre mim agradeço a atenção e estou ansioso para vê-los brevemente. 
+    </p>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <h2>Projetos</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>App Gestão Solar</h3>
+        <p>Aplicativo para gestão de energia solar em Kotlin e refeito em React-Native.</p>
+        <p>🛠️ Tecnologias Utilizadas<br>
+                Node
+                <br>  
+                React Native com Expo
+                <br>
+                JavaScript (ES6+)
+                <br>
+                React Navigation
+                <br>
+                Styled Components / StyleSheet
+                <br>  
+                @react-native-picker/picke
+              </p>
+      </div>
+      <div class="card">
+        <h3>Site PIT</h3>
+        <p>Projeto escolar para denúncias urbanas com HTML, CSS e PHP.</p>
+        <p>🛠️ Tecnologias Utilizadas<br>
+                Java
+                <br> 
+                PHP
+                <br>
+                MySQL
+                <br>
+                HTML
+                <br>
+                CSS
+              </p>
+    </div>
+    <div class="card">
+        <h3>AlertaDose</h3>
+        <p>Sistema para gerenciamento de pacientes, controle de medicamentos e geração de alertas automáticos de retirada com base em regras de periodicidade e prescrição médica. </p>
+        <p>🛠️ Tecnologias Utilizadas<br>
+                Java 21
+                <br>  
+                Spring Boot
+                <br>
+                Spring Data JPA
+                <br>
+                Hibernate
+                <br>
+                MySQL
+                <br>  
+                Maven
+              </p>
+    </div>
+  </section>
+
+  
+
+  <section id="contato" class="contato">
+    <h2 class="titulo-contato">Contato Profissional</h2>
+  <form id="whatsapp-form" class="form-contato">
+    <input type="text" id="nome" placeholder="Seu nome" required />
+    <textarea id="mensagem" placeholder="Digite sua mensagem" required></textarea>
+    <button type="submit" class="curriculo-btn">Enviar para o WhatsApp</button>
+  </form>
+
+  <h2 class="titulo-contato">Ou envie por E-mail</h2>
+<form id="email-form" class="form-contato">
+  <input type="text" id="email-nome" placeholder="Seu nome" required />
+  <textarea id="email-mensagem" placeholder="Digite sua mensagem" required></textarea>
+  <button type="submit" class="curriculo-btn">Enviar para o E-mail</button>
+</form>
+
+
+    <div class="social-icons">
+      <a href="https://github.com/marcobispojr" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/marcobispojr/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/marcobsp_/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Marco Antônio. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
